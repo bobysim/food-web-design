@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat&display=swap');
+
+@media screen and (max-width:767px) and (max-width: 1023px) and (max-width: 1024px) {
+    
+}
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+
+}
+
+.nav-links, li, a {
+    font-size: 16px;
+    font-weight: 600px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    flex: none;
+}
+
+.foodie {
+    display:inline-block;
+    font-size: 32px;
+    font-style: normal;
+    line-height: 39px
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+ .nav-links li a {
+ transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: red;
+   }
+
+.d1 {
+    position: absolute;
+    width: 183px;
+    height: 176px;
+    left: 0px;
+    top: 93px;
+}
+
+.arrow {
+    position: absolute;
+    width: 113.66px;
+    height: 92.05px;
+    left: 719.65px;
+    right: 300px;
+    transform: rotate(40deg);
+}
+.bold-text {
+    position: absolute;
+    width: 645px;
+    height: 231px;
+    left: 101px;
+    top: 291px;
+    font-style: normal;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 77px;
+    color: #000000;
+   }
+
+.smalltext {
+    position: absolute;
+    width: 144px;
+    height: 22px;
+    left: 101px;
+    top: 269px;
+    color: #FF4242;
+}
+
+.longtext {
+    position: absolute;
+    width: 594px;
+    height: 66px;
+    left: 101px;
+    top: 545px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, o, o, 0.67);
+}
+
+.frame {
+    display: flex;
+    align-items: center;
+    padding: 10px 51px;
+    gap: 10px;
+    position: absolute;
+    width: 182px;
+    height: 60px;
+    left: 101px;
+    top: 634px;
+    background: #FF4242;
+    border-radius: 5px;
+}
+
+.text {
+    width: 80px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    
+}
+
+.gft {
+    width: 80px;
+    height: 22px;
+    font-style: normal; 
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.thefood {
+    position: absolute;
+    width: 559px;
+    height: 598px;
+    left: 780px;
+    top: 181px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.dt2 {
+    position: absolute;
+    width: 291px;
+    height: 280px;
+    left: 642px;
+    top: 611px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 711px;
+    height: 236px;
+    left: opx;
+    top: 788px;
+    background-color: #FF4242;
+}
