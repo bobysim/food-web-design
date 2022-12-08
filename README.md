@@ -1,2 +1,1 @@
-# New
- My First project
+first-ever-project
